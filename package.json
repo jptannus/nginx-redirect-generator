@@ -1,0 +1,25 @@
+{
+  "name": "nginx-redirect-generator",
+  "version": "1.0.0",
+  "description": "A simple tool to generate nginx server configuration for redirects by a given URL list.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jptannus/nginx-redirect-generator.git"
+  },
+  "keywords": [
+    "nginx",
+    "redirect",
+    "generator"
+  ],
+  "author": "João Paulo Tannus de Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jptannus/nginx-redirect-generator/issues"
+  },
+  "homepage": "https://github.com/jptannus/nginx-redirect-generator#readme"
+}
