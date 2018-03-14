@@ -27,7 +27,7 @@ http {
     server_name sample-domain.com;
     rewrite ^/test/123123$ http://another-domain.com/awe123123 permanent;
     rewrite ^/test/555$ http://another-domain.com/aweaw permanent;
-    rewrite ^/test/3$ http://another-domain.com/tawe3 permanent;
+    rewrite ^/test/(.*)$ http://another-domain.com/path/ permanent;
   }
   server {
     listen 8080;
@@ -46,4 +46,4 @@ http {
 * Done!
 
 ## TODO
-* [ ] Configure if I want code `301` or `302` on my redirects 
+* [ ] Configure if I want code `301` or `302` on my redirects

@@ -1,6 +1,6 @@
 http://sample-domain.com/test/123123 http://another-domain.com/awe123123
 http://sample-domain.com/test/555 http://another-domain.com/aweaw
-http://sample-domain.com/test/3 http://another-domain.com/tawe3
+http://sample-domain.com/test/(.*) http://another-domain.com/path/
 
 http://different-domain.com/test/123123 http://another-domain.com/awe123123
 http://different-domain.com/test/4555 http://another-domain.com/aweaw
