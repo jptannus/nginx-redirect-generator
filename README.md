@@ -45,5 +45,10 @@ http {
 * Run `npm start <path-to-url-list-file>`
 * Done!
 
+## Docker image
+* Build docker image with `docker build -t nginx-redirect-generator .`
+* Create a URL fil list based on the sample-file.txt
+* Run the docker image with `docker run --rm nginx-redirect-generator <url-file.txt>`
+
 ## TODO
 * [ ] Configure if I want code `301` or `302` on my redirects
